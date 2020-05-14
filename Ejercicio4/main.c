@@ -29,7 +29,7 @@ int main(void)
         }
     }
     
-    
+    mayus_minus (&arr_ptr, contador);
     return (EXIT_SUCCESS);
 }
 

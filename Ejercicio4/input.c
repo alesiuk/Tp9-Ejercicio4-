@@ -36,7 +36,7 @@
        {
            input = 0; //si se recibe un enter es porque se dejo de leer 
            if (contador == 0); //si la entrada estaba vacia devuelvo un -2 para indicar que hubo un error
-           return -2;
+           return -1;
        }
     }
     
