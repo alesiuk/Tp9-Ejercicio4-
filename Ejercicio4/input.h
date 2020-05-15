@@ -8,8 +8,10 @@
 #ifndef INPUT_H
 #define INPUT_H
 
+/*INCLUCIONES DE HEADERS*/
+#include "definitions.h"
 /*FUNCIONES*/
-int leer (char* arr_ptr) //esta funcion recibe un puntero a un arreglo donde guardara los caracteres ingresados por teclado
+int leer (char * arr_ptr); //esta funcion recibe un puntero a un arreglo donde guardara los caracteres ingresados por teclado
 //si la entrada es valida devuelve un -1 y si es valida devulve la cantidad de caracteres que tiene el arreglo
 
 

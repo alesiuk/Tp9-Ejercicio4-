@@ -6,6 +6,8 @@
                    projectFiles="true">
       <itemPath>definitions.h</itemPath>
       <itemPath>input.h</itemPath>
+      <itemPath>../mecanic.h</itemPath>
+      <itemPath>palindromo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -16,7 +18,8 @@
                    projectFiles="true">
       <itemPath>input.c</itemPath>
       <itemPath>main.c</itemPath>
-      <itemPath>../mecanic.c</itemPath>
+      <itemPath>mecanic.c</itemPath>
+      <itemPath>palindromo.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -40,7 +43,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="../mecanic.c" ex="false" tool="0" flavor2="0">
+      <item path="../mecanic.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="definitions.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -49,6 +52,12 @@
       <item path="input.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="mecanic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="palindromo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="palindromo.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -71,7 +80,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="../mecanic.c" ex="false" tool="0" flavor2="0">
+      <item path="../mecanic.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="definitions.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -80,6 +89,12 @@
       <item path="input.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="mecanic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="palindromo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="palindromo.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

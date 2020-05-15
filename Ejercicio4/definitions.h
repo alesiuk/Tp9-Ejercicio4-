@@ -11,7 +11,7 @@
 //MACROS 
 #define TRUE 1
 #define FALSE 0
-#define ARR_MAX 100
+#define ARR_MAX 20
 //MACROS CODIGO
 #define DEJAR_UN_ESPACIO printf("\n")
 
