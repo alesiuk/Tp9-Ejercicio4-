@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include "definitions.h"
 #include "input.h"
-#include "palindromo.h"
 #include "mecanic.h"
 
 static void bienvenida (void);                //Da la bienvenida al usuario
@@ -44,22 +43,22 @@ int main(void)
     
     if (palin == 0)                             //si es cero es porque la cadena ingresada era un palindromo
     {
-        printf("la cadena es palindromo \n");
+        printf("el string ingresado, es palindromo \n");		
         
     }
     else 
     {
-        printf("la cadena ingresada no es palindromo \n");  //caso contrario la cadena no es un palindromo
+        printf("el string ingresado,  no es palindromo \n");  //caso contrario la cadena no es un palindromo
     }
     
     
     printf("presione enter para salir. \n");
     
     char c= getchar();
-    if(c = '\n')
+    if((c = '\n'))
     {
         repeat = FALSE;
-        printf("gracias por utilizar el progrma \n");
+        printf("gracias por utilizar el programa \n");
     }
     }
     
@@ -69,8 +68,8 @@ int main(void)
 static void bienvenida (void)
 {
     int show_example;
-    printf("este programa verifica si la cadena ingresada es un palindromo\n");
-    printf("puede ingresar cadenas de hasta 100 letras \n");
+    printf("Este programa verifica si la cadena ingresada es un palindromo, consideramos a los numeros capicua como palindromos\n");
+    printf("Puede ingresar cadenas de hasta 100 letras \n");
     printf("Desea ver ejemplos de palindromos (S/N)\n");
     
     show_example = entradaSN();     //si lo que devolvio es un 1 es porque el usuario ingreso una S e imprimo lo siguiente
