@@ -1,9 +1,10 @@
 /*
- Archivo Header de mecanic.c que se encarga de cambiar las letras mayusculas por minusculas
+ Archivo Header de mecanic.c , este contiene todo el mecanismo del programa.
+Creadores grupo 5
 */
 #ifndef MECANIC_H
 #define MECANIC_H
-//void copy (char* , char*);		//La funcion recive dos punteros, uno a un string para copisrlo y otro el de la frase que escribe el usuario
-//int my_strlen(const char*);		//Esta funcion calcula el largo del string copiado, se usa una funcion recursiva para sacar la longitud.
+int palindromo(char *p1,char *p2);				//funcion que permite saber si una funcion es palindromo, es decir que se lea igual de atras para adelante y viceversa
+
 void mayus_minus(char* ,int );		//Esta funcion pasa las letras de la frases mayusculas a minusculas para poder compararlas en otra funcion
 #endif
