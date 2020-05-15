@@ -37,8 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/input.o \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/mecanic.o \
-	${OBJECTDIR}/palindromo.o
+	${OBJECTDIR}/mecanic.o
 
 
 # C Compiler Flags
@@ -79,11 +78,6 @@ ${OBJECTDIR}/mecanic.o: mecanic.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/mecanic.o mecanic.c
-
-${OBJECTDIR}/palindromo.o: palindromo.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/palindromo.o palindromo.c
 
 # Subprojects
 .build-subprojects:

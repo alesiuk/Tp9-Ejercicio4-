@@ -52,13 +52,19 @@ int main(void)
     }
     
     
-    printf("presione enter para salir. \n");
+    printf("presione 'q' para salir o enter para ingresar otra cadena. \n");
     
-    char c= getchar();
-    if((c = '\n'))
+    char c= getchar();  //obtengo el caracter del usuario
+    if(c=='q'||c=='Q')
     {
-        repeat = FALSE;
+        repeat = FALSE;             //si el caracter ingresado es una 'q' termino el progrma 
         printf("gracias por utilizar el programa \n");
+    }
+    else if (c=='\n')
+    {
+        DEJAR_UN_ESPACIO;   //si fue un enter reseteo las variables para utlizar el programa nuevamente 
+        repeat= TRUE;
+        valid = FALSE;
     }
     }
     
